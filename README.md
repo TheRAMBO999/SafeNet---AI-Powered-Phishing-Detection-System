@@ -263,3 +263,52 @@ The SafeNet model was tested against traditional machine learning models, includ
 
 SafeNet offers several strengths, including its high accuracy, real-time processing capability, and automatic feature extraction, which eliminates the need for manual rule-based detection. The model dynamically analyzes phishing URLs using deep learning, NLP, and heuristic-based feature selection, making it more effective against evolving phishing techniques. However, some challenges remain, such as dependency on external APIs like WHOIS lookups and web traffic data, which may slightly impact response time. Additionally, some phishing sites employ evasion techniques, such as cloaking and obfuscation, making detection more complex.
 
+###### Figure 1 Boxplot (Length of  URL vs Target)
+![Boxplot](boxplot.jpg)
+
+The boxplot clearly shows that the length of the URL is a distinguishing feature, with phishing URLs exhibiting wider variability in length compared to legitimate URLs.
+
+###### Figure 2 Confusion Matrix for NN with RFE
+![Confusion Matrix](confusion_matrix.jpg)
+
+This confusion matrix displays the performance of the NN model with Recursive Feature Elimination method, where the True Positive, True Negative, False Positive, and False Negative rates are visualized for both Legitimate and Phishing URL classifications.
+
+###### Figure 3 ROC curve for NN with RFE
+![Roc Curve](roc_curve)
+
+This ROC curve plots the True Positive Rate against the False Positive Rate, highlighting the model’s ability to accurately classify phishing URLs. The AUC (Area Under Curve) is 0.99, indicating excellent performance.
+
+###### Figure 4 Neural Network Accuracy and Loss Comparisons
+![Accuracy](accuracy.jpg)
+
+This plot demonstrates how the incurred accuracy and loss have impact on the model's performance. Both the training and validation accuracies and losses have been illustrated for comparison.
+
+###### Figure 5 Neural Network: PCA vs. Time Taken
+![PCA](pca.jpg)
+
+This graph describes about the PCA fitting time, Neural Network training time among the selected components.
+
+###### Figure 6 Neural Network Test Accuracy with Training Time
+![Training Time](training_time.jpg)
+
+This bar graph illustrates about the testing accuracy of neural network compared with training time annotations.
+
+###### Figure 7 Accuracy Comparison by Model and Feature Selection Method
+![Model Comparison](comparison_by_model.jpg)
+
+This bar graph  illustrates the accuracy comparisons between the trained models by model and feature selection method.
+
+###### Figure 8 RFE  Feature Accuracy Comparison
+![RFE](rfe.jpg)
+
+This bar graph compares the RFE feature accuracy across the trained models.
+
+## Summary
+
+SafeNet is a phishing detection system that employs multiple machine learning models, including Neural Networks (NN), K-Nearest Neighbors (KNN), Naïve Bayes, Random Forest, and Support Vector Machines (SVM), to effectively identify and prevent phishing attacks. To enhance performance, the system utilizes feature selection and dimensionality reduction techniques such as Principal Component Analysis (PCA) and Recursive Feature Elimination (RFE), ensuring optimal feature extraction for improved accuracy. Among the tested models, the NN model outperformed others in terms of accuracy, precision, and recall. SafeNet is implemented with FastAPI for real-time detection and features an interactive interface built with Streamlit, making it user-friendly and highly adaptable. Additionally, user feedback is continuously integrated to refine the model’s predictions, improving its effectiveness against evolving phishing threats. Future enhancements will explore Reinforcement Learning (RL) to enable adaptive learning from new phishing techniques, dynamically adjusting the model’s detection strategies. Furthermore, integrating blockchain-based verification will enhance security by ensuring reliable authentication, while extending SafeNet to mobile platforms will improve accessibility, offering a scalable and robust phishing detection solution in an increasingly complex cybersecurity landscape.
+
+## Future Enhancements
+
+The evaluation of the SafeNet system demonstrates that the Neural Network (NN) model achieves the highest detection accuracy, precision, and recall, making it the most effective choice for phishing detection. The application of advanced feature selection techniques such as Principal Component Analysis (PCA) and Recursive Feature Elimination (RFE) significantly improved model performance by reducing dimensionality and selecting the most relevant features. While Random Forest and Support Vector Machines (SVM) also performed well, they showed slightly lower accuracy in identifying phishing URLs compared to the NN model. On the other hand, K-Nearest Neighbors (KNN) and Naïve Bayes exhibited lower recall rates, indicating their limitations in effectively detecting phishing attempts.
+
+The integration of real-time user feedback through Stream lit and Fast API enhances the system’s adaptability, allowing it to learn from evolving phishing techniques and refine its predictions dynamically. This interactive approach makes SafeNet a continuously improving phishing detection solution. Future enhancements may involve incorporating Reinforcement Learning (RL) to further strengthen the system’s ability to adapt to new and sophisticated phishing tactics. By continuously learning from new data and user feedback, SafeNet can evolve into a more robust and efficient phishing protection framework, capable of countering emerging cybersecurity threats.
