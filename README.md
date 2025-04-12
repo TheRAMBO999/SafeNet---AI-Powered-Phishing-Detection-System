@@ -68,6 +68,7 @@ SafeNet aims to enhance the security and robustness of neural networks against a
 - **Continuous Learning** – Integrate self-improving mechanisms to adapt to evolving threats and enhance overall security.
 
 ## System Architecture
+###### Architecture Diagram
 ![Architecture](system_architecture.jpg)
 
 ### Phases
