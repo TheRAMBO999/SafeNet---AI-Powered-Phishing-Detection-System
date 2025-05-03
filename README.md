@@ -4,17 +4,17 @@
 
 - [Introduction](#introduction)
 - [Problem Definition](#problem-definition)
-- [Motivation/Challenges](#motivation-/-challenges)
+- [Motivation](#motivation)
 - [Objectives of the Work](#objectives-of-the-work)
 - [System Architecture](#system-architecture)
   - [Phases](#phases)
-    - [Data Collection & Preprocessing](#1-data-collection-&-preprocessing)
+    - [Data Collection & Preprocessing](#1-data-collection--preprocessing)
     - [Feature Engineering](#2-feature-engineering)
-    - [Model Training & Evaluation](#3-model-training-&-evaluation)
-    - [API Development & Integration](#4-api-development-integration)
-    - [Deployment & Hosting](#5-deployment)
-    - [Real-time URL Prediction](#6-real-time-URL-prediction)
-    - [Performance Optimization & Security](#7-Performance-optimization)
+    - [Model Training & Evaluation](#3-model-training--evaluation)
+    - [API Development & Integration](#4-api-development--integration)
+    - [Deployment & Hosting](#5-deployment--hosting)
+    - [Real-time URL Prediction](#6-real-time-url-prediction)
+    - [Performance Optimization & Security](#7-performance-optimization--security)
   - [Algorithm](#algorithm)
     - [Supervised Learning Algorithms](#1-supervised-learning-algorithms)
     - [Deep Learning Models](#2-deep-learning-models)
@@ -23,7 +23,7 @@
 - [Results](#results)
   - [Metrics For Evaluation](#metrics-for-evaluation)
   - [Parameters Setting](#parameters-setting)
-  - [Results & Discussion](#results&discussion)
+  - [Results & Discussion](#results--discussion)
     - [Model Performance Matrix](#1-model-performance-matrix)
     - [Comparative Analysis](#2-comparative-analysis)
     - [Model Evaluation](#3-model-evaluation)
@@ -42,7 +42,7 @@ Sensitive cybersecurity issues such as phishing detection have been addressed ve
 
 SafeNet aims to enhance the security and robustness of neural networks against adversarial attacks, data breaches, and model vulnerabilities. The system integrates advanced detection mechanisms, anomaly detection, and secure model training techniques to safeguard neural networks from potential threats. SafeNet leverages encryption, adversarial training, and real-time monitoring to ensure data integrity, model reliability, and cross-platform security.
 
-## Motivation/Challenges
+## Motivation
 
 - **Gaps in Traditional Systems:** Email filters, browser protections, and heuristic-based detection tend to weakly counter advanced phishing techniques.
  
