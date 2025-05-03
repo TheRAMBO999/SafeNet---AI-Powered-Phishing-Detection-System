@@ -22,7 +22,7 @@
 - [Results](#results)
   - [Metrics For Evaluation](#metrics)
   - [Parameters Setting](#parameters-setting)
-  - [Results & Discussion](#results)
+  - [Results & Discussion](#results&discussion)
     - [Model Performance Matrix](#1-model-performance-matrix)
     - [Comparative Analysis](#2-comparative-analysis)
     - [Model Evaluation](#3-model-evaluation)
