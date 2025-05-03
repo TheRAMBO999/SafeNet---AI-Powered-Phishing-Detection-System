@@ -3,7 +3,7 @@
 
 - [Introduction](#introduction)
 - [Problem Definition](#problem-definition)
-- [Motivation/Challenges](#motivation/challenges)
+- [Motivation/Challenges](#motivation-/-challenges)
 - [Objectives of the Work](#objectives-of-the-work)
 - [System Architecture](#system-architecture)
   - [Phases](#phases)
