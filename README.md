@@ -1,4 +1,5 @@
 # SafeNet: AI-Powered Real-Time Phishing Detection and Prevention System
+![Streamlit](Streamlit.jpg)
 ## Table of Contents
 
 - [Introduction](#introduction)
