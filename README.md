@@ -20,7 +20,7 @@
     - [Hybrid & Adaptive Models](#3-hybrid-and-adaptive-models)
   - [Dataset](#dataset)
 - [Results](#results)
-  - [Metrics For Evaluation](#metrics)
+  - [Metrics For Evaluation](#metrics-for-evaluation)
   - [Parameters Setting](#parameters-setting)
   - [Results & Discussion](#results&discussion)
     - [Model Performance Matrix](#1-model-performance-matrix)
