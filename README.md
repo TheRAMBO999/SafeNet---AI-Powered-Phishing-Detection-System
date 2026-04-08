@@ -276,7 +276,7 @@ The boxplot clearly shows that the length of the URL is a distinguishing feature
 This confusion matrix displays the performance of the NN model with Recursive Feature Elimination method, where the True Positive, True Negative, False Positive, and False Negative rates are visualized for both Legitimate and Phishing URL classifications.
 
 ###### Figure 3 ROC curve for NN with RFE
-![Roc Curve](roc_curve)
+![Roc Curve](roc_curve.jpg)
 
 This ROC curve plots the True Positive Rate against the False Positive Rate, highlighting the model’s ability to accurately classify phishing URLs. The AUC (Area Under Curve) is 0.99, indicating excellent performance.
 
